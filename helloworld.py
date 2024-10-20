@@ -1,0 +1,1 @@
+print(f"Hello {input("Q: What is your name?\n")}. In 2 years you will be {int(input("Q: And how old are you?\n"))+ 2} years old! Today is going to be a great day!")
