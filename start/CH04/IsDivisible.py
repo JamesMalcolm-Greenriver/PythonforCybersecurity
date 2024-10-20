@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 # Script that tells you if a number is divisible by another
-# By James Malcolm 10/12/24
+# By James Malcolm 10/18/24
+
+
+    
+def is_divisible(num, div):
+    return num % div == 0
 
 num = int(input("What is the number: "))
-divisor = int(input("What is the divisor: "))
+div = int(input("What is the divisor: "))
 
-if num % divisor == 0:
-    print(f"{num} is divisible by {divisor}")
+if is_divisible(num, div):
+    print(f"{num} is divisible by {div}")
 else:
-    print(f"{num} is NOT divisible by {divisor}")
+    print(f"{num} is NOT divisible by {div}")
