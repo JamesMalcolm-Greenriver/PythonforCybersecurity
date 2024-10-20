@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Script that tells you if a number is divisible by another
-# By James Malcolm 10/18/24
+# By James Malcolm 
+# Date: 10/18/24
 
 
     

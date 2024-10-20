@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Script that writes to a file
-# By James Malcolm 10/12/24
+# By James Malcolm 
+# Date: 10/18/24
 
 hack_file = open("hackme.txt", "w")
 
